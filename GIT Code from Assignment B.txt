@@ -1,0 +1,171 @@
+GIT Code from Assignment B
+Author:  Michael V Proctor
+Institution:  KnowledgeHut
+Date:  Jan 20, 2024
+
+
+Full Stack@m622pro100 MINGW64 ~/OneDrive/Desktop/Activity_B (main)
+$ git init
+Initialized empty Git repository in C:/Users/Full Stack/OneDrive/Desktop/Activity_B/.git/
+
+Full Stack@m622pro100 MINGW64 ~/OneDrive/Desktop/Activity_B (main)
+$ git status
+On branch main
+
+No commits yet
+
+nothing to commit (create/copy files and use "git add" to track)
+
+Full Stack@m622pro100 MINGW64 ~/OneDrive/Desktop/Activity_B (main)
+$ git clone https://github.com/V180465/fsd-lvc-program_Activity_B.git
+Cloning into 'fsd-lvc-program_Activity_B'...
+remote: Enumerating objects: 26, done.
+remote: Counting objects: 100% (26/26), done.
+remote: Compressing objects: 100% (24/24), done.
+remote: Total 26 (delta 7), reused 0 (delta 0), pack-reused 0
+Receiving objects: 100% (26/26), 499.50 KiB | 6.32 MiB/s, done.
+Resolving deltas: 100% (7/7), done.
+
+Full Stack@m622pro100 MINGW64 ~/OneDrive/Desktop/Activity_B (main)
+$ git status
+On branch main
+
+No commits yet
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        fsd-lvc-program_Activity_B/
+
+nothing added to commit but untracked files present (use "git add" to track)
+
+Full Stack@m622pro100 MINGW64 ~/OneDrive/Desktop/Activity_B (main)
+$ ls -ltr
+total 4
+drwxr-xr-x 1 Full Stack 197121 0 Jan 30 20:49 fsd-lvc-program_Activity_B/
+
+Full Stack@m622pro100 MINGW64 ~/OneDrive/Desktop/Activity_B (main)
+$ cd fsd-lvc-program_Activity_B/
+
+Full Stack@m622pro100 MINGW64 ~/OneDrive/Desktop/Activity_B/fsd-lvc-program_Activity_B (main)
+$ git init
+Reinitialized existing Git repository in C:/Users/Full Stack/OneDrive/Desktop/Activity_B/fsd-lvc-program_Activity_B/.git/
+
+Full Stack@m622pro100 MINGW64 ~/OneDrive/Desktop/Activity_B/fsd-lvc-program_Activity_B (main)
+$ git status
+On branch main
+Your branch is up to date with 'origin/main'.
+
+nothing to commit, working tree clean
+
+Full Stack@m622pro100 MINGW64 ~/OneDrive/Desktop/Activity_B/fsd-lvc-program_Activity_B (main)
+$ echo 'Making my first open source contribution. Making open source contributions is a great way to boost my GitHub profile and it extends my network' > fork.md
+
+Full Stack@m622pro100 MINGW64 ~/OneDrive/Desktop/Activity_B/fsd-lvc-program_Activity_B (main)
+$ git status
+On branch main
+Your branch is up to date with 'origin/main'.
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        fork.md
+
+nothing added to commit but untracked files present (use "git add" to track)
+
+Full Stack@m622pro100 MINGW64 ~/OneDrive/Desktop/Activity_B/fsd-lvc-program_Activity_B (main)
+$ git add fork.md
+warning: in the working copy of 'fork.md', LF will be replaced by CRLF the next time Git touches it
+
+Full Stack@m622pro100 MINGW64 ~/OneDrive/Desktop/Activity_B/fsd-lvc-program_Activity_B (main)
+$ git commit -m "fork.md added to local repository"
+[main b155799] fork.md added to local repository
+ 1 file changed, 1 insertion(+)
+ create mode 100644 fork.md
+
+Full Stack@m622pro100 MINGW64 ~/OneDrive/Desktop/Activity_B/fsd-lvc-program_Activity_B (main)
+$ git status
+On branch main
+Your branch is ahead of 'origin/main' by 1 commit.
+  (use "git push" to publish your local commits)
+
+nothing to commit, working tree clean
+
+Full Stack@m622pro100 MINGW64 ~/OneDrive/Desktop/Activity_B/fsd-lvc-program_Activity_B (main)
+$ git log
+commit b1557997ee133201e661082f68f210594d417ade (HEAD -> main)
+Author: Michael V Proctor <test_repo_v180465@outlook.com>
+Date:   Tue Jan 30 20:53:41 2024 -0500
+
+    fork.md added to local repository
+
+commit 6d11d654e93f7cfdd00244772192e8944ce8394a (origin/main, origin/HEAD)
+Author: Michael V Proctor <157426331+V180465@users.noreply.github.com>
+Date:   Tue Jan 30 20:35:11 2024 -0500
+
+    Update README.md
+
+commit 66d120fcd3348baaf7ff7ffa101da7d95c2c589a
+Author: Michael V Proctor <157426331+V180465@users.noreply.github.com>
+Date:   Tue Jan 30 20:34:19 2024 -0500
+
+    Delete Home Work Assignments_Jan_28_2024.docx
+
+commit c2e41ccdd21bc2b440b63bb5f4e3eebcbdc68d20
+Author: Michael V Proctor <157426331+V180465@users.noreply.github.com>
+Date:   Tue Jan 30 20:28:04 2024 -0500
+
+    Update README.md
+
+commit 453f1cf61994c9ab06cddf7dd007d4fb84dc3fe6
+Author: Michael V Proctor <157426331+V180465@users.noreply.github.com>
+Date:   Tue Jan 30 19:54:47 2024 -0500
+
+    Create Sample_Open_Source_Code
+
+commit a1753897ddefdbc2f279c28557fa702e414bad53
+Author: Michael V Proctor <157426331+V180465@users.noreply.github.com>
+Date:   Tue Jan 30 19:50:15 2024 -0500
+
+    Update README.md
+
+commit c532d946cc88298ee36b9f2abb39f389e69e5474
+Author: Michael V Proctor <157426331+V180465@users.noreply.github.com>
+Date:   Tue Jan 30 19:24:56 2024 -0500
+
+    Add files via upload
+
+    This assignment is HomeWork assignment B
+
+commit 77f7df944fcefd79559907ec5ef892432d042428
+Author: Michael V Proctor <157426331+V180465@users.noreply.github.com>
+Date:   Tue Jan 30 19:23:30 2024 -0500
+
+    Update README.md
+
+commit a5b37c52b730896d39dd696a7c1231f6229c3925
+Author: Michael V Proctor <157426331+V180465@users.noreply.github.com>
+Date:   Tue Jan 30 19:18:52 2024 -0500
+
+    Create MIT Legal Disclosure
+
+commit 288f7ad8c73360e7e3584cfd38c934cecebceb95
+Author: obiwanCodes <123297215+obiwanCodes@users.noreply.github.com>
+Date:   Mon Feb 6 11:00:39 2023 +0530
+
+    Initial commit
+
+Full Stack@m622pro100 MINGW64 ~/OneDrive/Desktop/Activity_B/fsd-lvc-program_Activity_B (main)
+$ git push -u origin main:main
+Enumerating objects: 4, done.
+Counting objects: 100% (4/4), done.
+Delta compression using up to 8 threads
+Compressing objects: 100% (3/3), done.
+Writing objects: 100% (3/3), 397 bytes | 397.00 KiB/s, done.
+Total 3 (delta 1), reused 0 (delta 0), pack-reused 0
+remote: Resolving deltas: 100% (1/1), completed with 1 local object.
+To https://github.com/V180465/fsd-lvc-program_Activity_B.git
+   6d11d65..b155799  main -> main
+branch 'main' set up to track 'origin/main'.
+
+Full Stack@m622pro100 MINGW64 ~/OneDrive/Desktop/Activity_B/fsd-lvc-program_Activity_B (main)
+$
+
